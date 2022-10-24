@@ -9,16 +9,18 @@ import Footer from 'components/Footer';
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <HeroSection />
       <Categories />
       <Campaings />
-      <Favorites />
-      <MobileApp />
-      <Cards />
-      <Footer />
-    </>
+      <div className="container mx-auto max-w-7xl">
+        <Favorites />
+        <MobileApp />
+        <Cards />
+        <Footer />
+      </div>
+    </div>
   );
 }
 
