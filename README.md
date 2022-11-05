@@ -4,9 +4,7 @@
 
 `npm install`
 
- ## Installation 
-
-
+ ## Getting started 
  
  ```
 npm run dev 
