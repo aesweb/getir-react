@@ -5,7 +5,7 @@ import { RiUserFill, RiUserAddFill } from 'react-icons/ri';
 function Header() {
   return (
     <div className="bg-brand-color px-8">
-      <div className="container mx-auto max-w-7xl h-11 flex items-center justify-between">
+      <div className="container mx-auto max-w-7xl h-16 md:h-11 flex items-center justify-center md:justify-between">
         <a href="/#">
           <img
             data-testid="main-image"
@@ -14,7 +14,7 @@ function Header() {
             shape="NORMAL"
           />
         </a>
-        <nav className="flex gap-x-8 text-sm font-semibold">
+        <nav className="hidden md:flex gap-x-8 text-sm font-semibold">
           <a
             href="/#"
             className="text-white flex items-center gap-x-2 transition-all text-opacity-80 hover:text-opacity-100 flex items-center gap-x-2"
